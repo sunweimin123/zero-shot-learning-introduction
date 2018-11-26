@@ -1,2 +1,4 @@
 # zero-shot-learning introduction
-In order to familiarize more people with zero-shot-learning, we create the reposiyory to introduce some basic knowledge about it 
+In order to familiarize more people with zero-shot-learning, we create the reposiyory to introduce some basic knowledge about it. Next, we will introduce it in three parts, respectively what, why, how.
+## What is zeor-shot-learning?
+
