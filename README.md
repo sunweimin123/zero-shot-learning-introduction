@@ -4,5 +4,5 @@ In order to familiarize more people with zero-shot-learning, we create the repos
 
 ## Why do i introduce it?
 
-## How 
+## How should we learn it?
 
