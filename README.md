@@ -12,6 +12,7 @@ In order to resolve such problem, Lampert proposed a classic attribute-based app
 
 As we can see from the structure, zero-shot-learning includes seen class、model、side information and unsenn class. Seen class and unseen class are disjoint. We use the seen data to get the visiual feature. Usually we utilize deep learning to get the feature. Side information mainly includes the  attributes of class and label. For example, we can use fat, big ears,big nose to descripe a pig. Unseen data is the source that we hope to predict directly. Finally we hope get a suitable model that maps visiual feature to the side information and use the side information to predict the unseen class.
    
-
+## Take a close look at it
+ - Visiual Feature
 
 
