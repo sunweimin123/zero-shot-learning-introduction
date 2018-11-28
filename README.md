@@ -14,5 +14,5 @@ As we can see from the structure, zero-shot-learning includes seen class、model
    
 ## Take a close look at it
  - Visiual Feature
-
+![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/4.png)
 
