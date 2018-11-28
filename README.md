@@ -1,5 +1,5 @@
 # zero-shot-learning guidebook
-In order to familiarize more people with zero-shot-learning, we create the reposiyory to introduce some basic knowledge about it. Next, we will introduce it in three parts, respectively what, why, how.
+In order to familiarize more people with zero-shot-learning, we create the reposiyory to introduce some basic knowledge about it.
 ## What is zeor-shot-learning?
 
 In the convolutional classfication model, we need a large number of data to train the model. So when we categorize a new class, we have to collect data again. And because of the changes in nature and the emergence of new species, it is becoming more and more difficult to identify species only by collecting data. 
@@ -14,7 +14,4 @@ As we can see from the structure, zero-shot-learning includes seen class、model
    
 
 
-## Why do i introduce it?
-
-## How should we learn it?
 
