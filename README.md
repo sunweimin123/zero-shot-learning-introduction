@@ -6,6 +6,8 @@ In the convolutional classfication model, we need a large number of data to trai
 ![](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/1.png)
 
 In order to resolve such problem, Lampert proposed a classic attribute-based approach called zero-shot-learning which has ability to tansfer knowledge without collecting new data. It is also the same way that humans preview new things.Let's take a look at its structure.
+
+
 ![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/3.png)
 
 ![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/2.png)
