@@ -17,5 +17,10 @@ As we can see from the structure, zero-shot-learning includes seen class、model
 ## Take a close look at it
  - Framework of the method
 ![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/4.png)
+ - Seen data and Unseen data
+ Seen data are the source that we train to get the visiual feature. We hope to get signifant information from the seen data and transfer it to the unseen data. On account of the unseen data are disjoint with seen data, so we need to utilize side information to predict the label.
+ 
+ - Visiual Feature
+ 
 
 
