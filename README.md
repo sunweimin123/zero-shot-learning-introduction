@@ -16,42 +16,19 @@ also the same way that humans preview new things.Let's take a look at its struct
 
 ![pic-2](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/2.png)
 
-As we can see from the structure, zero-shot-learning includes seen class、model、side information 
-and unsenn class. Seen class and unseen class are disjoint. We use the seen data to get the visiual 
-feature. Usually we utilize deep learning to get the feature. Side information mainly includes the  
-attributes of class and label. For example, we can use fat, big ears,big nose to descripe a pig. 
-Unseen data is the source that we hope to predict directly. Finally we hope get a suitable model 
-that maps visiual feature to the side information and use the side information to predict the 
-unseen class.
+As we can see from the structure, zero-shot-learning includes seen class、model、side information and unsenn class. Seen class and unseen class are disjoint. We use the seen data to get the visiual feature. Usually we utilize deep learning to get the feature. Side information mainly includes the attributes of class and label. For example, we can use fat, big ears,big nose to descripe a pig. Unseen data is the source that we hope to predict directly. Finally we hope get a suitable model that maps visiual feature to the side information and use the side information to predict the unseen class.
    
 ## Generalized zero-shot learning(GZSL)
  - Introduction
  
- Zero-shot learning has been proven to be a great way to
- resolve the problem that learning with no data. 
- Nevertheless, it only applies when there is no seen classes
- in testing. So when we apply such method to the real
- situation, it does not work very well. In order to
- resolve such problem, we propose GZSL to recognize 
- any test instance coming either from a known
- class or from a novel class that has no training
- instance.
+ Zero-shot learning has been proven to be a great way to resolve the problem that learning with no data. Nevertheless, it only applies when there is no seen classes in testing. So when we apply such method to the real situation, it does not work very well. In order to resolve such problem, we propose GZSL to recognize any test instance coming either from a known class or from a novel class that has no training instance.
  
  
 ![pic-3](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/4.png)
 
  - Method
  
- Previous methods concentrate on more additional side information.In this paper, we mine the hidden 
- relationship of classes.Although test instances can be classified through computing the nearest 
- neighbor between the mapped features and the original class attributes, it’s not effective just 
- using the assistance of semantic attributes to build feature mapping. We introduce dissimilarity 
- representation as a new transformed feature for instances.As shown in the figure below, 
- visiual features of class are projected into the attribute space. We get the dissimilarity 
- representation respectively from attribute space and visiual space.Here, with the assistance of 
- dissimilarity representation, we propose an efficient feature mapping method, named Dissimilarity 
- Representation Learning (DSS). According to the mapping complexity, DSS is divided into shallow 
- mapping(DSSs) and deep mapping (DSSd).
+ Previous methods concentrate on more additional side information.In this paper, we mine the hidden relationship of classes.Although test instances can be classified through computing the nearest neighbor between the mapped features and the original class attributes, it’s not effective just using the assistance of semantic attributes to build feature mapping. We introduce dissimilarity representation as a new transformed feature for instances.As shown in the figure below, visiual features of class are projected into the attribute space. We get the dissimilarity representation respectively from attribute space and visiual space.Here, with the assistance of dissimilarity representation, we propose an efficient feature mapping method, named Dissimilarity Representation Learning (DSS). According to the mapping complexity, DSS is divided into shallow mapping(DSSs) and deep mapping (DSSd).
 
   ![pic-4](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/5.png)
 
