@@ -7,7 +7,7 @@ In the convolutional classfication model, we need a large number of data to trai
 So when we categorize a new class, we have to collect data again. And because of the changes 
 in nature and the emergence of new species, it is becoming more and more difficult to identify 
 species only by collecting data. 
-fig1:![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/1.png)
+![pic-1](https://github.com/sunweimin123/zero-shot-learning-introduction/blob/master/1.png)
 
 In order to resolve such problem, Lampert proposed a classic attribute-based approach called 
 zero-shot-learning which has ability to tansfer knowledge without collecting new data. It is 
